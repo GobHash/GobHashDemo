@@ -1,0 +1,151 @@
+{% extends "base_template.twig" %}
+
+{% block body_title %}
+    Gob Hash <small>demo</small>
+{% endblock %}
+
+
+{% block body_content %}
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="portlet light portlet-fit ">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class="icon-settings font-dark"></i>
+                        <span class="caption-subject font-dark sbold uppercase">Compras del IGSS en este momento</span>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div id="chart_4" class="chart"> </div>
+                        </div>
+                        <div class="col-md-4">
+                            <span align="justify" class="caption-subject font-dark sbold">
+                                En esta publicación podrás tener un log de las compras en tiempo real del IGSS
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="col-md-6 text-center">
+                                <label><i class="fa fa-comment fa-lg" aria-hidden="true"> Comentarios</i></label>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <label><i class="fa fa-hashtag fa-lg" aria-hidden="true"> 200</i></label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="/feed/1" class="btn green pull-right">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portlet light portlet-fit ">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class=" icon-layers font-green"></i>
+                        <span class="caption-subject font-green bold uppercase">Tendencia de compras por empresa</span>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div id="chart_1" class="chart"> </div>
+                        </div>
+                        <div class="col-md-4">
+                            <span align="justify" class="caption-subject font-dark sbold">
+                                En esta publicación podrás ver la tendencia que tiene algunas empresas gubernamentales
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="col-md-6 text-center">
+                                <label><i class="fa fa-comment fa-lg" aria-hidden="true"> Comentarios</i></label>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <label><i class="fa fa-hashtag fa-lg" aria-hidden="true"> 200</i></label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="/feed/1" class="btn green pull-right">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portlet light portlet-fit ">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class=" icon-layers font-green"></i>
+                        <span class="caption-subject font-green bold uppercase">Compras que pasan por la Aduana</span>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div id="chart_5" style="height:350px;"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <span align="justify" class="caption-subject font-dark sbold">
+                                En esta publicación puedes ver la cantidad de impuestos y ventas que se registran por estas 10 empresas
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="col-md-6 text-center">
+                                <label><i class="fa fa-comment fa-lg" aria-hidden="true"> Comentarios</i></label>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <label><i class="fa fa-hashtag fa-lg" aria-hidden="true"> 200</i></label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="/feed/1" class="btn green pull-right">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portlet light portlet-fit ">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class=" icon-layers font-green"></i>
+                        <span class="caption-subject font-green bold uppercase">Porcentajes de compra de escritorios por empresa por Ministerio de Educación</span>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div id="pie_chart_4" class="chart"> </div>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="caption-subject font-dark sbold">
+                                Aquí podrás ver cuáles son las empresas proveedoras de escritorios y utilidades de oficina más sobresalientes y qué porcentaje
+                                de sus productos son usado por el gobierno en relación al total
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="col-md-6 text-center">
+                                <label><i class="fa fa-comment fa-lg" aria-hidden="true"> Comentarios</i></label>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <label><i class="fa fa-hashtag fa-lg" aria-hidden="true"> 200</i></label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="/feed/1" class="btn green pull-right">Ver más</a>
+                        </div>
+                    </div>
+                    {# <h4>Semi-transparent, black-colored label background.</h4> #}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
