@@ -219,5 +219,25 @@ html,body{
     font-size: 3em;
   }
 
-  .globhash-subtitle-2{ font-size: 1em}s
+  .globhash-subtitle-2{ font-size: 1em}
+}
+
+.page-header .page-header-menu {
+  background: #646464 !important;
+}
+
+.page-content {
+  background: #d0d0d0 !important;
+}
+
+.page-head {
+  background: #d0d0d0 !important;
+}
+
+.page-header-top {
+  background: #646464 !important;
+}
+
+.btn-menu {
+  background: #ffa10e !important;
 }
