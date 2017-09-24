@@ -137,6 +137,9 @@ html,body{
 .no-margin{ margin: 0;   }
 .no-padding{ padding: 0; }
 
+/* This two classes are used to hide or show the different login / registration / forgotten password forms*/
+.hidden-element{  display: none !important;  }
+.visible-element{  display: block !important;  }
 
 /* MEDIA QUERIES */
 
