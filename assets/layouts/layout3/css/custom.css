@@ -243,10 +243,7 @@ html,body{
   color: white;
 }
 
-.active {
-  /*border-bottom: 4px solid #ffa10e !important;*/
-}
-
-li a.active{
+li.active.under{
   border-bottom: 4px solid #ffa10e !important;
 }
+
